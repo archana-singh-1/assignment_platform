@@ -10,27 +10,6 @@ body{
   background-color: white;
   margin-bottom: 143px;
 }
-
-
-
-@media (min-width:1200px){
-  .container{
-    max-width: 705px;
-    height: 620px;
-  }
-
-}
-
-@media(max-width:376px) {
-  .container{
-    height: 827px;
-    width: 320px;
-    margin: auto;
-    margin-top: 175px;
-    margin-bottom: 251px;
-  }
-}
-
 .title{
   text-align: center;
   font-family: Inter;
@@ -49,7 +28,6 @@ body{
   padding-top: 40px;
   color: #4C4B49;
 }
-
 .read_carefully{
   margin: auto;
   width: 472px;
@@ -70,10 +48,6 @@ body{
   font-weight: 400;
 
 }
-.timeDiv ul li{
-  padding-top: 6px;
-}
-
 .internetDiv{
   width: 472px;
   margin: auto;
@@ -96,9 +70,11 @@ body{
   padding-top: 5px;
 
 }
+
 span{
   font-weight: 600;
 }
+
 
 .border{
   height: 1px;
@@ -107,6 +83,58 @@ span{
   background-color: #4C4B49;
   margin-top: 40px;
 }
+
+
+
+@media (min-width:1200px){
+  .container{
+    max-width: 705px;
+    height: 620px;
+  }
+
+}
+
+@media(max-width:376px) {
+  .container{
+    height: 827px;
+    width: 320px;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 80px;
+  }
+  .instruction{
+    width: 280px;
+    margin: auto;
+    text-align: center;
+
+  }
+.read_carefully{
+  width: 280px;
+  margin: auto;
+}
+.timeDiv{
+  width: 280px;
+}
+.internetDiv{
+  width: 280px;
+
+}
+.Start{
+  width: 280px;
+
+}
+.border{
+  width: 280px;
+}
+
+}
+
+
+
+.timeDiv ul li{
+  padding-top: 6px;
+}
+
 
 .letsStart{
   display: flex;
