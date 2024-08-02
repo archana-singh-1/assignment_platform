@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './Watch.css';
 
 function Watch() {
+
     const [timeLeft, setTimeLeft] = useState(59 * 60 + 59); 
     useEffect(() => {
         const timer = setInterval(() => {
@@ -32,6 +33,7 @@ function Watch() {
                     </div>
                 </div>
             </div>
+            <p>Remaning Time</p>
         </div>
     );
 }

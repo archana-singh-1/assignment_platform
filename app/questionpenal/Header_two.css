@@ -1,14 +1,33 @@
 .header{
     background-color: white;
     height: 72px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px;
 }
 
 .logo{
   padding: 18px 18px 18px 120px;
+}
 
+.submit {
+    width: 130px;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #FEEEB4;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    align-items: center; 
+    justify-content: flex-end;
+}
 
-
-     
+.submitBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: auto; 
 }
 @media (min-width:1440px){
     .header{
