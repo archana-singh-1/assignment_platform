@@ -1,0 +1,17 @@
+.footer{
+    height: 171px;
+    background:#4C4B49;
+}
+
+.footerIcon{
+    color: white;
+    text-align: center;
+}
+h2{
+    padding-top: 46px;
+    font-size: 18px;
+    margin: 0;
+}
+p{
+    font-size: 14px;
+}
