@@ -16,7 +16,7 @@ p{
     font-size: 14px;
 }
 
-@media(max-width:376px){
+@media(max-width:600px){
     .footer{
         margin-top: 80px;
 
