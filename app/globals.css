@@ -143,18 +143,18 @@ span{
   margin-top: 39px;
   width: 159px;
   height: 54px;
-  background-color:#FEEEB4;
+}
+
+a.button-link {
+  display: inline-block; 
+  padding: 10px 20px;
+  background-color: #FEEEB4;
   border: solid 1px #F4D150;
-  font-size: 18px;
+  text-decoration: none; 
+  color: black; 
+  border-radius: 10px; 
+  text-align: center; 
   font-family: normal;
   font-weight: 400;
   font-family: Inter;
-  border-radius: 10px 20px 30px 20px;
 }
-
-button{
-  border: none;
-  background-color:#FEEEB4;
-
-}
-

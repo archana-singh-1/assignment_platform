@@ -21,7 +21,7 @@ function Page () {
         <div className="Start">Click 'Lets Start' to begin the test. <br></br><span>Good luck!</span></div>
         <div className="border"></div>
         <div className="letsStart">
-         <button>Lets start!</button>
+         <a href="questionpenal" className="button-link">Lets start!</a>
         </div>
         
       </div>

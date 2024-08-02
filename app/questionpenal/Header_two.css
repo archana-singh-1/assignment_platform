@@ -1,0 +1,37 @@
+.header{
+    background-color: white;
+    height: 72px;
+}
+
+.logo{
+  padding: 18px 18px 18px 120px;
+
+
+
+     
+}
+@media (min-width:1440px){
+    .header{
+      background-color: white;
+      max-width: 1200px;
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+  
+  }
+
+
+@media (max-width:376px){
+    .header{
+      border: solid 2px black;
+    }
+    .logo{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        text-align: center;
+    }
+    .footer{
+        height: 171px;
+        border: solid 2px black;
+    }
+}
