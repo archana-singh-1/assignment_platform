@@ -1,10 +1,10 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: #EBE9E6;
 }
+
 .container{
-  height: 620px;
   max-width: 720px;
   margin: auto;
   background-color: white;
@@ -33,7 +33,6 @@ body{
   width: 472px;
   font-family: Inter;
   font-size: 14px;
-  font-family: normal;
   font-weight: 400;
   color: #4C4B49;
 }
@@ -43,7 +42,6 @@ body{
   width: 472px;
   font-family: Inter;
   color: #4C4B49;
-  font-family: normal;
   font-size: 14px;
   font-weight: 400;
 
@@ -54,7 +52,6 @@ body{
   color: #4C4B49;
   font-family: Inter;
   font-size: 14px;
-  font-family: normal;
   font-weight: 400;
 
 }
@@ -65,7 +62,6 @@ body{
   color: #4C4B49;
   font-family: Inter;
   font-size: 14px;
-  font-family: normal;
   font-weight: 400;
   padding-top: 5px;
 
@@ -85,20 +81,9 @@ span{
 }
 
 
-
-@media (min-width:1200px){
-  .container{
-    max-width: 705px;
-    height: 620px;
-  }
-
-}
-
 @media(max-width:600px) {
   .container{
-    height: 827px;
     width: 320px;
-    margin: auto;
     margin-top: 34px;
     margin-bottom: 80px;
   }
@@ -129,8 +114,6 @@ span{
 
 }
 
-
-
 .timeDiv ul li{
   padding-top: 6px;
 }
@@ -142,19 +125,20 @@ span{
   margin: auto;
   margin-top: 39px;
   width: 159px;
-  height: 54px;
+
 }
 
 a.button-link {
   display: inline-block; 
+  margin-bottom: 40px;
   padding: 10px 20px;
   background-color: #FEEEB4;
   border: solid 1px #F4D150;
   text-decoration: none; 
   color: black; 
-  border-radius: 10px; 
+  border-radius: 4px; 
   text-align: center; 
-  font-family: normal;
   font-weight: 400;
   font-family: Inter;
+ 
 }

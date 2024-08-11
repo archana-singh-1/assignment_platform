@@ -1,0 +1,31 @@
+.pagination{
+    display: flex;
+    gap:16px;
+    padding-top: 25px;
+    padding-bottom: 17px;
+}
+
+.page_1{
+    display: flex;
+    border: solid 2px #E0DfDA;
+    border-radius: 30px;
+    padding: 7px 10px 6px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.previusIcon{
+    width: 28px;
+}
+
+.nextIcon{
+    width: 28px;
+
+}

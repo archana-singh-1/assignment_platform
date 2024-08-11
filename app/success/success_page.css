@@ -1,0 +1,94 @@
+.success_container{
+    max-width: 720px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 143px;
+    margin-top: 103px;
+}
+
+.text{
+    width: 310px;
+    margin: auto;
+
+}
+
+.Successfully{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+.completing{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Ptag{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.scoreBtn{
+    display: inline-block; 
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    background-color: #FEEEB4;
+    border: solid 1px #F4D150;
+    margin-top: 98px;
+    margin-bottom: 108px;
+
+}
+.Score_link{
+    text-decoration: none; 
+    color: black; 
+    border-radius: 4px; 
+    text-align: center; 
+    font-weight: 400;
+    font-family: Inter;
+
+}
+
+.ticks{
+    text-align: center;
+    margin-top: 65px;
+}
+
+.tick{
+    text-align: center;
+    margin-top: 65px;
+}
+
+
+@media(max-width:600px){
+    .success_container{
+        width: 320px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    /* .score{
+        margin-top: 98px;
+        margin-bottom: 60px;
+    } */
+    .scoreBtn{
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+}

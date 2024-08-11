@@ -1,0 +1,13 @@
+
+
+.main_container{
+    width: 1200px;
+    margin: auto;
+}
+
+.question_container{
+    margin-left: 103px; 
+    margin-right: 203px;
+    display: flex;
+    margin-bottom: 136px;
+}

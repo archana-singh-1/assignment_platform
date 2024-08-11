@@ -1,0 +1,59 @@
+.your_score{
+    width: 625px;
+    border: solid 2px #8F887C;
+    height: 165px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 67px;
+    display: flex;
+    background-color: #4C4B49;
+}
+
+.score_details{
+    display: flex;
+    border: solid 2px black;
+}
+
+.score{
+    margin-top: 89px;
+    margin-bottom: 54px;
+}
+
+.score p{
+    color: red;
+    color: var(--Light-b, #F9F7F2);
+    text-align: center;
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+.score span{
+    color: #F9F7F2;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.attemp{
+    color: blue;
+
+}
+.correct{
+    color: blueviolet;
+}
+
+.wrong{
+    color: aqua;
+}
+
+.attempDetails{
+    display: flex;
+    border: solid 2px red;
+    width: 625px;
+    height: 165px;
+    margin-left: 52px;
+
+}

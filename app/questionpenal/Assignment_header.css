@@ -1,0 +1,66 @@
+.header{
+    background-color: white;
+}
+
+.main_header{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.logo{
+  width: 997px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+    width: 203px;
+}
+
+.submitBtn {
+   width: 130px;
+   float: right;
+   background-color: #FEEEB4;
+   margin-top: 11px;
+   border: none;
+   border-radius: 4px;
+}
+
+a.submitButton {
+    display: inline-flex;
+    padding: 16px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none; 
+    border-radius: 4px;
+    color: black;
+   
+} 
+
+.logoImg{
+    padding-top: 18px;
+}
+
+
+.mobile_header{
+    display: none;
+    height: 72px;
+    margin: auto;
+    background-color: white;
+}
+
+
+@media(max-width:600px){
+    .mobile_header{
+        display: block;
+    }
+    .logoImg{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        margin: auto;
+    }
+
+}

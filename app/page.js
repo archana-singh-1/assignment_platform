@@ -1,7 +1,7 @@
 import Header from "./Header";
 function Page () {
   return(
-    <div>
+    <div className="main">
       <Header/>
       <div className="title">MCQ Test Portal</div>
       <div className="container">

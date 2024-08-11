@@ -1,3 +1,9 @@
+.watch{
+    border: solid 1px black;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 57px;
+}
 .circle {
     border-radius: 50%; 
     width: 141px;
@@ -52,4 +58,8 @@
 h3{
     color: #E68086;
     padding-bottom: 16px;
+}
+
+h4{
+    margin: 0;
 }

@@ -1,10 +1,14 @@
-import HeaderTwo from "./Header_two";
-function Allqusetion(){
+import Allquestion from "./All_question";
+import Assignment_header from "./Assignment_header.js";
+
+
+function Questionpenal(){
     return(
         <div>
-            <HeaderTwo/>
+            <Assignment_header/>
+            <Allquestion/>
         </div>
     )
 
 }
-export default Allqusetion;
+export default Questionpenal;
