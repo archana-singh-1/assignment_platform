@@ -1,9 +1,4 @@
-.watch{
-    border: solid 1px black;
-    position: relative;
-    margin-top: 25px;
-    margin-left: 57px;
-}
+
 .circle {
     border-radius: 50%; 
     width: 141px;
@@ -62,4 +57,12 @@ h3{
 
 h4{
     margin: 0;
+}
+
+.remaning{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
 }

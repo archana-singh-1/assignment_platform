@@ -11,22 +11,22 @@ function Question(){
             <div className="displayQuestion">
                 Which of the following committees recommended inclusion of fundamental duties ?
                 <div className="questionDisplay">
-                    <div>
+                    <div className="input_box">
                         <input type="radio" id="option1" name="options" value="1"/>
                         <label for="option1">Tarapore Committee</label>
                     </div>
 
-                <div>
+                <div className="input_box">
                     <input type="radio" id="option1" name="options" value="1"/>
                     <label for="option1">Radha Krishnan Committee</label>
                 </div>
 
-                <div>
+                <div className="input_box">
                     <input type="radio" id="option1" name="options" value="1"/>
                     <label for="option1">Swaran Singh Committee</label>
                 </div>
 
-                <div>
+                <div className="input_box">
                     <input type="radio" id="option1" name="options" value="1"/>
                     <label for="option1">Balwantrai Mehta Committee</label>
                 </div> 

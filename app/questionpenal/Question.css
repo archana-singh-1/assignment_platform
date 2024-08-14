@@ -11,6 +11,7 @@
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+
 }
 
 .score{
@@ -27,6 +28,7 @@
 .question_contain{
     background-color: #FCFAFA;
     margin: auto;
+    border-radius: 12px;
 
 }
 
@@ -38,8 +40,12 @@
     font-weight: 600;
     padding: 40px;
 }
-
 .questionDisplay{
+    padding-top: 20px;
+    
+}
+
+.input_box{
     color: var(--Dark-b, #4C4B49);
     font-family: Inter;
     font-size: 14px;

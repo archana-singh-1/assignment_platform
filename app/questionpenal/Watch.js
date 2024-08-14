@@ -21,7 +21,7 @@ function Watch() {
                     </div>
                 </div>
             </div>
-            <p>Remaning Time</p>
+            <p className='remaning'>Remaning Time</p>
         </div>
     );
 }
