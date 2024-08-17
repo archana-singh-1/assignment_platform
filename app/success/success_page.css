@@ -50,9 +50,10 @@
     margin-bottom: 40px;
     padding: 10px 20px;
     background-color: #FEEEB4;
-    border: solid 1px #F4D150;
+    border: solid 2px #F4D150;
     margin-top: 98px;
     margin-bottom: 108px;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
 
 }
 .Score_link{
@@ -82,10 +83,6 @@
         margin-bottom: 0;
         margin-top: 0;
     }
-    /* .score{
-        margin-top: 98px;
-        margin-bottom: 60px;
-    } */
     .scoreBtn{
         margin-bottom: 60px;
         margin-top: 50px;

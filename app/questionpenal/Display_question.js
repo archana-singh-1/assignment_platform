@@ -1,4 +1,5 @@
 import "./display_question.css"
+
 function Display_question(){
     return(
         <div className="qusetion">

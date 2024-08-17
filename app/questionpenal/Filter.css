@@ -2,8 +2,8 @@
     width: 284px;
     height: 375px;
     border-radius: 12px;
-    border: 1px dashed var(--Dark-c, #777671);
-    background: var(--Light-b, #F9F7F2);
+    border: 1px dashed  #777671;
+    background:  #F9F7F2;
     margin-top: 20px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .FilterText{
-    color: var(--Dark-b, #4C4B49);
+    color: #4C4B49;
     font-family: "Inria Sans";
     font-size: 16px;
     font-style: normal;
@@ -30,7 +30,7 @@
 }
 
 .Question_Score{
-    color: var(--Dark-a, #1F1E1C);
+    color:  #1F1E1C;
     font-family: "Inria Sans";
     font-size: 16px;
     font-style: normal;
@@ -83,7 +83,7 @@
 
 .Questions_Attempted{
     margin-top: 48px;
-    color: var(--Dark-a, #1F1E1C);
+    color:  #1F1E1C;
     font-family: "Inria Sans";
     font-size: 16px;
     font-style: normal;
@@ -108,8 +108,8 @@
     gap: 10px;
     color: white;
     border-radius: 54px;
-    border: 1px solid var(--Dark-b, #4C4B49);
-    background: var(--Dark-b, #4C4B49);
+    border: 1px solid  #4C4B49;
+    background: #4C4B49;
 
 
 }
@@ -117,8 +117,8 @@
 .totalAttempted{
     padding: 6px 12px;
     border-radius: 54px;
-    border: 1px solid var(--Accent, #F4D150);
-    background: var(--Accent-Light, #FEEEB4);
+    border: 1px solid  #F4D150;
+    background:  #FEEEB4;
     font-family: Inria Sans;
 }
 
@@ -127,69 +127,7 @@
     padding: 6px 12px;
     gap: 10px;
     border-radius: 54px;
-    border: 1px solid var(--Accent, #F4D150);
-    background: var(--Accent-Light, #FEEEB4);
+    border: 1px solid  #F4D150;
+    background: #FEEEB4;
 
-}
-
-.popop{
-    display: none;
-
-}
-
-
-
-.col_1{
-    border-top: 2px solid #777671;
-    margin-left: 10px;
-    padding-top: 2px;
-    width: 16px;
-    height: 0px;
-    stroke-width: 2px;
-}
-
-
-.col_2{
-    border-top: solid 2px #777671;
-    width: 13px;
-    margin-left: 11px;
-    padding-top: 2px;
-    height: 0px;
-    stroke-width: 2px;
-}
-
-.col_3{
-    border-top: solid 2px #777671;
-    width: 10px;
-    margin-left: 12px;
-    padding-top: 2px;
-    height: 0px;
-    stroke-width: 2px;
-}
-
-.mobileFilter{
-    color: var(--Dark-b, #4C4B49);
-    font-family: "Inria Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-}
-
-@media (max-width: 600px) {
-    .popop {
-        display: flex ;
-        border: 1px solid #ccc;
-        padding: 10px;
-        align-items: center;
-        margin-bottom: 99px;
-        margin-top: 34px;
-        margin-left: 110px;
-        gap: 12px;
-        border-radius: 6px;
-        border: 2px solid var(--Light-d, #E0DFDA);
-        background: var(--Light-a, #FCFAFA);
-    }
-    
 }

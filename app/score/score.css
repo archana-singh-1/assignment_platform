@@ -24,6 +24,7 @@
     font-weight: 500;
     margin: 0;
     margin-top: 52px;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
 }
 .score span{
     color: #F9F7F2;
@@ -56,6 +57,5 @@
     font-style: normal;
     font-weight: 400;
     margin: 0;
-
 }
 

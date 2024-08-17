@@ -20,26 +20,6 @@
   justify-content: space-between;
 }
 
-.submitBtn {
-   float: right;
-   background-color: #FEEEB4;
-   margin-top: 9px;
-   border-radius: 4px;
-   border: 2px solid  #F4D150;
-   box-shadow: 0px 4px 7px 0px #B3AE9C;
-}
-
-a.submitButton {
-    display: inline-flex;
-    padding: 16px 35px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none; 
-    border-radius: 4px;
-    color: black;
-   
-} 
 .logoImg{
     margin-top: 18px;
     margin-bottom: 18px;

@@ -7,7 +7,7 @@ function Watch() {
             <div className="circle">
                 <div className="circle_1">
                     <div className="time">
-                        <div className="time-section">
+                        <div className="hours-section">
                             <h4>59</h4>
                             <span>min</span>
                         </div>

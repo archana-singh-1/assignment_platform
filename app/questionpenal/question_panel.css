@@ -9,7 +9,12 @@
     display: flex;
     margin-bottom: 136px;
 } 
-
+.hide{
+    display: none;
+    position: fixed;
+    top: 710px;
+    right: 20px;
+}
 .watch_row{
     margin: auto;
     width: 152px;
@@ -23,7 +28,10 @@
 .question_col{
     margin-top: 60px;
 }
-
+.filterwatch{
+    display: flex;
+    justify-content: space-between;
+}
 @media(max-width: 600px) {
     .main_container{
         width: 360px;
@@ -37,13 +45,12 @@
     }
 
     .question_col {
-        margin-top: 40px;
+        margin-top: 59px;
         margin-bottom: 259px;
     }
 
     .filterWatch{
         top:23px;
-        display: flex;
     }
     .watch_row{
         margin: 0;
@@ -52,6 +59,12 @@
     }
     .filter_row{
         display: none;
+    }
+    .hide{
+        display: block;
+        position: fixed;
+        top: 710px;
+        right: 20px;
     }
 }
 
