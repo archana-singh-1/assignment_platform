@@ -1,0 +1,122 @@
+.pagination{
+    display: flex;
+    gap:16px;
+    padding-top: 24px;
+    padding-bottom: 22px;
+}
+.page_1{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+.page_2{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+.page_3{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+.page_4{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+.page_5{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+.page_6{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.page_7{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+.page_8{
+    width: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+}
+.dot{
+    width: 28px;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+    display: none;
+
+}
+.dot_1{
+    width: 28px;
+    border-radius: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+    display: none;
+}
+
+@media(max-width:600px){
+    .pagination{
+        width: 322px;
+        display: flex;
+        gap:16px;
+        margin: auto;
+        padding-top: 24px;
+        padding-bottom: 22px;
+    }
+    .page_2{
+        display: none;
+    }
+    .page_3{
+        display: none;
+    }
+    .page_4{
+        display: none;
+    }
+    .page_6{
+        display: none;
+    }
+    .page_7{
+        display: none;
+    }
+    .dot{
+        display: block;
+    }
+    .dot_1{
+        display: block;
+    }
+
+
+}

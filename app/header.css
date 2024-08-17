@@ -1,8 +1,9 @@
 .header{
-    background-color: white;
+  background-color: white;
+  text-align: center;
 }
 
-.logo{
+.header_logo{
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -12,8 +13,9 @@
 @media (max-width:600px){
     .header{
       max-width: 600px;
+      text-align: center;
     }
-    .logo{
+    .header_logo{
         padding-top: 18px;
         padding-bottom: 18px;
         text-align: center;

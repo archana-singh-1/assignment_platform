@@ -1,5 +1,10 @@
-.header{
+.assignment_header{
     background-color: white;
+}
+@media(max-width:600px){
+    .assignment_header{
+        display: none;
+    }
 }
 
 .main_header{
@@ -9,24 +14,19 @@
     justify-content: space-between; 
 }
 
-.logo{
+.pagination_logo{
   width: 997px;
   display: flex;
   justify-content: space-between;
 }
 
-.submit {
-    width: 203px;
-}
-
 .submitBtn {
-   width: 130px;
    float: right;
    background-color: #FEEEB4;
-   margin-top: 11px;
-   border: none;
+   margin-top: 9px;
    border-radius: 4px;
-   border: solid 1px #F4D150;
+   border: 2px solid  #F4D150;
+   box-shadow: 0px 4px 7px 0px #B3AE9C;
 }
 
 a.submitButton {
@@ -40,28 +40,24 @@ a.submitButton {
     color: black;
    
 } 
-
 .logoImg{
-    padding-top: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
-
-
-.mobile_header{
-    display: none;
-    height: 72px;
-    margin: auto;
-    background-color: white;
-}
-
-
 @media(max-width:600px){
-    .mobile_header{
-        display: block;
-    }
     .logoImg{
         padding-top: 18px;
-        padding-bottom: 18px;
         margin: auto;
     }
 
+}
+
+@media(max-width:600px){
+
+    .mobile_header{
+        display: block;
+    }
+    .mobile_header_second{
+        display: block;
+    }
 }

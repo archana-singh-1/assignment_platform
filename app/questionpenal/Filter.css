@@ -115,16 +115,11 @@
 }
 
 .totalAttempted{
-    align-items: center;
     padding: 6px 12px;
     border-radius: 54px;
     border: 1px solid var(--Accent, #F4D150);
     background: var(--Accent-Light, #FEEEB4);
-    color: var(--Dark-a, #1F1E1C);
-    font-family: "Inria Sans";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
+    font-family: Inria Sans;
 }
 
 .Unattempted{
@@ -135,4 +130,66 @@
     border: 1px solid var(--Accent, #F4D150);
     background: var(--Accent-Light, #FEEEB4);
 
+}
+
+.popop{
+    display: none;
+
+}
+
+
+
+.col_1{
+    border-top: 2px solid #777671;
+    margin-left: 10px;
+    padding-top: 2px;
+    width: 16px;
+    height: 0px;
+    stroke-width: 2px;
+}
+
+
+.col_2{
+    border-top: solid 2px #777671;
+    width: 13px;
+    margin-left: 11px;
+    padding-top: 2px;
+    height: 0px;
+    stroke-width: 2px;
+}
+
+.col_3{
+    border-top: solid 2px #777671;
+    width: 10px;
+    margin-left: 12px;
+    padding-top: 2px;
+    height: 0px;
+    stroke-width: 2px;
+}
+
+.mobileFilter{
+    color: var(--Dark-b, #4C4B49);
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .popop {
+        display: flex ;
+        border: 1px solid #ccc;
+        padding: 10px;
+        align-items: center;
+        margin-bottom: 99px;
+        margin-top: 34px;
+        margin-left: 110px;
+        gap: 12px;
+        border-radius: 6px;
+        border: 2px solid var(--Light-d, #E0DFDA);
+        background: var(--Light-a, #FCFAFA);
+    }
+    
 }

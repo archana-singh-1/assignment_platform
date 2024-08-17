@@ -1,0 +1,30 @@
+.mobile_pagination{
+    display: none;
+    height: 74px;
+    margin: auto;
+    background-color: white;
+}
+
+@media(max-width:600px){
+    .mobile_pagination{
+        display: block;
+        height: 74px;
+        margin: auto;
+        background-color: white;
+    }
+}
+
+.header{
+    display: none;
+}
+
+@media(max-width:600px){
+    .header{
+        display: block;
+    }
+    .mobile_pagination{
+        border-top: solid 2px #E0DFDA;
+    }
+}
+
+    

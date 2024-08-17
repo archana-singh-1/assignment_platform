@@ -1,15 +1,14 @@
-import './Assignment_header.css'
-import Watch from './Watch';
+import './assignment_header.css';
+import Mobile_header from './Mobile_header';
 import Pagination from './Pagination';
+
 function Assignment_header () {
     return(
-        <>
-            <div className="header">
+        <>  
+            <div className="assignment_header">
                 <div className='main_header'>
-                    <div className='logo'>
-                        <div className='logoImg'>
-                        <img src="Logo.png"/>
-                        </div>
+                    <div className='pagination_logo'>
+                        <img src="Logo.png" className='logoImg'/>
                         <Pagination/>
                     </div>
                     <div className='submit'>
@@ -19,10 +18,8 @@ function Assignment_header () {
                     </div>
                 </div>
             </div>
-            <div className='mobile_header'></div>
-        </>
-
-        
+        <Mobile_header/>
+        </> 
     );
 };
 export default Assignment_header;

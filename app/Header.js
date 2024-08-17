@@ -1,10 +1,8 @@
-import './Header.css'
+import './header.css'
 function Header () {
     return(
         <div className="header">
-            <div className='logo'>
-                <img src="Logo.png"/>
-            </div>
+            <img src="Logo.png" className='header_logo'/>
         </div>
     );
 };
