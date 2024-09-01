@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .filter_row{
     width: 284px;
     height: 375px;
@@ -22,7 +25,7 @@
 
 .FilterText{
     color: #4C4B49;
-    font-family: sans-serif;
+    font-family: "Inria Sans", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -31,7 +34,7 @@
 
 .Question_Score{
     color:  #1F1E1C;
-    font-family: sans-serif;
+    font-family: "Inria Sans", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -84,7 +87,7 @@
 .Questions_Attempted{
     margin-top: 48px;
     color:  #1F1E1C;
-    font-family: sans-serif;
+    font-family: "Inria Sans", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -104,7 +107,7 @@
 
 .alls{
     align-items: center;
-    font-family: sans-serif;
+    font-family: "Inria Sans", sans-serif;
     padding: 6px 12px;
 
     gap: 10px;
@@ -127,12 +130,12 @@
     font-style: normal;
     font-weight: 400;
     background:  #FEEEB4;
-    font-family: sans-serif;
+    font-family: "Inria Sans", sans-serif;
 }
 
 .Unattempted{
     align-items: center;
-    font-family: sans-serif;
+    font-family: "Inria Sans", sans-serif;
     padding: 6px 12px;
     gap: 10px;
     border-radius: 54px;

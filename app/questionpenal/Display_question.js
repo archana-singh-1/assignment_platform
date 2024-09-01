@@ -1,40 +1,37 @@
-import "./display_question.css"
+import "./display_question.css";
 
-function Display_question(){
-    return(
-        <div className="qusetion">
+function DisplayQuestion() {
+    return (
+        <div className="question">
             <div className="scores">
                 <span className="questions">Question</span>
-                <span className="score">Score+5</span>
+                <span className="score">Score +5</span>
             </div>
             <div className="question_contain">
-                <div className="displayQuestion">
-                    <div> Which of the following committees recommended inclusion of fundamental duties ?</div>
-                    <div className="questionDisplay">
-                        <div className="input_box">
-                            <input type="radio" id="option1" name="options" value="1"/>
-                            <label for="option1">Tarapore Committee</label>
-                        </div>
-
-                        <div className="input_box">
-                            <input type="radio" id="option1" name="options" value="1"/>
-                            <label for="option1">Radha Krishnan Committee</label>
-                        </div>
-
-                        <div className="input_box">
-                            <input type="radio" id="option1" name="options" value="1"/>
-                            <label for="option1">Swaran Singh Committee</label>
-                        </div>
-
-                        <div className="input_box">
-                            <input type="radio" id="option1" name="options" value="1"/>
-                            <label for="option1">Balwantrai Mehta Committee</label>
-                        </div> 
-                </div>
+                <form className="formData">
+                    <p className="ask"> Which of the following committees recommended inclusion of fundamental duties ?</p>
+                    <div className="textquestion">
+                        <input type="radio" className="questionOne" name="fav_language" value="HTML" />
+                        <label htmlFor="html" className="displayQuestionOne">Tarapore Committee </label>
+                    </div>
+                     <div className="textquestion">
+                        <input type="radio"  className="questionOne"  name="fav_language" value="CSS" />
+                        <label htmlFor="css">Radha Krishnan Committee </label>
+                    </div>
+                    <div className="textquestion">
+                        <input type="radio"  className="questionOne"  name="fav_language" value="JavaScript" />
+                        <label htmlFor="javascript">Swaran Singh Committee </label>
+                    </div> 
+                    <div className="textquestion">
+                        <input type="radio"  className="questionOne"  name="fav_language" value="JavaScript" />
+                        <label htmlFor="javascript">Balwantrai Mehta Committee </label>
+                    </div> 
+                </form>
+                
             </div>
-
+            
         </div>
-        </div>
-    )
+    );
 }
-export default Display_question;
+
+export default DisplayQuestion;

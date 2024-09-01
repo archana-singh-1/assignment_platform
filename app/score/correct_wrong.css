@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.correctContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.Expand{
+    text-align: end;
+
+}
+
+
+.question_contain{
+    background-color: #FCFAFA;
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.displayQuestion{
+    color: #1F1E1C;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 40px;
+}
+.questionDisplay{
+    padding-top: 28px;
+    
+}
+
+.input_box{
+    color:  #4C4B49;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.scoreQuestion{
+    margin-top: 30px;
+}
+
+.correctDiv{
+    display: flex;
+    gap: 16px;
+}
+
+.questionNum{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.questionnumber{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.imagetick{
+    width: 28px;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.question_contain{
+    height: 284px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    border-radius: 12px;
+    background-color: #FCFAFA;
+}
+
+.ask{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.formData{
+    padding: 40px;
+    width: 480px;
+    margin-left: 32px;
+    margin-top: 19px;
+    padding: 40px;
+    border: solid 2px #88BE37;
+    border-radius: 12px;
+    background-color: #FCFAFA;
+
+}
+
+.textquestion{
+    color: var(--Dark-b, #4C4B49);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.questionOne{
+    margin-right: 12px;
+    width: 24px;
+    margin-top: 15px;
+
+}
+
+
+.displayQuestionOne{
+    color: var(--Dark-b, #4C4B49);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.correct_worng{
+    width: 595px;
+    margin: auto;
+}
+
+.textquestion{
+    color: var(--Dark-b, #4C4B49);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.questionOne{
+    margin-right: 12px;
+    width: 24px;
+    margin-top: 15px;
+
+}
+
+
+.displayQuestionOne{
+    color: var(--Dark-b, #4C4B49);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.wrongFormData{
+    padding: 40px;
+    border: solid 2px#E68086;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #FCFAFA;
+    margin-left: 32px;
+
+}
+.borders{
+    border: solid 1px #8F887C;
+    width: 580px;
+    margin-top: 70px;
+}
+
+.wrongRow{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.borders_two{
+    border: solid 1px #8F887C;
+    width: 580px;
+    margin-top: 20px;
+
+}
+
+.questionNum{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 6px;
+}
+
+.questionnumber{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 6px;
+}
+
+@media(max-width:600px){
+    .correct_worng {
+        width: 320px;
+        margin: auto;
+    }
+
+    .formData{
+        margin-left: 0;
+        width: 240px;
+    }
+    .wrongFormData{
+        margin-left: 0;
+
+    }
+    .borders{
+        width: 320px;
+    }
+    .borders_two{
+        width: 320px;
+
+    }
+
+}

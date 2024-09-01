@@ -89,7 +89,7 @@
 
 @media(max-width:600px){
     .pagination{
-        width: 322px;
+        width: 298px;
         display: flex;
         gap:16px;
         margin: auto;
