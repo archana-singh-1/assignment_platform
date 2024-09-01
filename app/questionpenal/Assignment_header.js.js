@@ -9,7 +9,7 @@ function Assignment_header () {
             <div className="assignment_header">
                 <div className='main_header'>
                     <div className='pagination_logo'>
-                        <img src="Logo.png" className='logoImg'/>
+                        <img src="Logo.png" className='logoImg' alt=""/>
                         <Pagination/>
                     </div>
                 <Submit_button/>

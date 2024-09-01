@@ -7,7 +7,7 @@ function Success_page(){
             <Header/>
             <div className="success_container">
                 <div className="tick">
-                    <img src="tick.png" className="ticks"/>
+                    <img src="tick.png" className="ticks" alt=""/>
                 </div>
                 <div className=" text">
                     <div className="Successfully">Successfully Sumbitted</div>

@@ -13,16 +13,16 @@ function Score(){
                     </div>
                     <div className="scoreDetails">
                         <div className="unattempted">
-                            <div className="img1"><img src="Grp.png"/></div>
+                            <div className="img1"><img src="Grp.png" alt=""/></div>
                             <div className="p_unattemp">Unattempted<span className="spanDot">:</span>3</div>
                         </div>
                         <div className="correct">
-                            <div className="img2"><img src="tick.png" /></div>
+                            <div className="img2"><img src="tick.png" alt="" /></div>
                             <div className="correct_p">Correct<span className="spanDot">:</span> 35</div>
 
                         </div>
                         <div className="wrong">
-                            <div className="img3"><img src="crossIcon.png"/></div>
+                            <div className="img3"><img src="crossIcon.png" alt=""/></div>
                             <div className="wrong_p">Wrong<span className="spanDot">:</span>2</div>
                         </div>
 

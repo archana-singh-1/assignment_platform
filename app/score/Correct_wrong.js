@@ -5,11 +5,11 @@ function Correct_wrong(){
         <div className="correct_worng">
             <div className='correctContainer'>
                 <div className='correctDiv'>
-                    <div  className='imagetick'><img src="tick.png"/></div>
+                    <div  className='imagetick'><img src="tick.png" alt=""/></div>
                     <div className='questionNum'>10</div>
                     <div className='questionnumber'>Q1</div>
                 </div>
-                <div  className='Expand'><img src="Collapse.png"/></div>
+                <div  className='Expand'><img src="Collapse.png" alt=""/></div>
             </div>
 
 
@@ -37,11 +37,11 @@ function Correct_wrong(){
 
             <div className='correctContainer'>
                 <div className='correctDiv'>
-                    <div  className='imagetick'><img src="crossIcon.png"/></div>
+                    <div  className='imagetick'><img src="crossIcon.png" alt=""/></div>
                     <div className='questionNum'>00</div>
                     <div className='questionnumber'>Q2</div>
                 </div>
-                <div  className='Expand'><img src="Collapse.png"/></div>
+                <div  className='Expand'><img src="Collapse.png" alt="" /></div>
             </div>
 
 
@@ -69,11 +69,11 @@ function Correct_wrong(){
 
             <div className='wrongRow'>
                 <div className='correctDiv'>
-                    <div  className='imagetick'><img src="crossIcon.png"/></div>
+                    <div  className='imagetick'><img src="crossIcon.png" alt=""/></div>
                     <div className='questionNum'>00</div>
                     <div className='questionnumber'>Q3</div>
                 </div>
-                <div  className='Expand'><img src="Collapse Expand.png"/></div>
+                <div  className='Expand'><img src="Collapse Expand.png" alt=""/></div>
             </div>
             <div className='borders_two'></div>
             <Correctadd/>
