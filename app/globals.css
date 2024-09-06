@@ -29,8 +29,12 @@ body{
   font-family: "Inria Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  padding-top: 40px;
   color: #4C4B49;
+}
+
+.Instructions{
+  margin:0;
+  padding-top: 40px;
 }
 .read_carefully{
   margin: auto;
@@ -39,6 +43,7 @@ body{
   font-size: 14px;
   font-weight: 400;
   color: #4C4B49;
+  margin-top: 16px;
 }
 
 .timeDiv{
@@ -48,6 +53,7 @@ body{
   color: #4C4B49;
   font-size: 14px;
   font-weight: 400;
+  margin-top: 8px;
 
 }
 .internetDiv{
@@ -71,8 +77,13 @@ body{
 
 }
 
-span{
+.goodLuck{
   font-weight: 600;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 150%;
+  margin-left: 125px;
 }
 
 
@@ -84,10 +95,12 @@ span{
   margin-top: 40px;
 }
 
-
+ul{
+  margin: 0;
+}
 @media(max-width:600px) {
   .container{
-    width: 320px;
+    width: 100%;
     margin-top: 34px;
     margin-bottom: 80px;
   }

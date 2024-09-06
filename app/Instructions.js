@@ -5,8 +5,10 @@ function Instructions () {
       <Header/>
       <div className="title">MCQ Test Portal</div>
       <div className="container">
-        <div className="instruction"><h4>Instructions</h4></div>
-        <div className="read_carefully">Please read the instructions carefully before you begin:</div>
+        <div className="instruction">
+          <h4 className="Instructions">Instructions</h4>
+        </div>
+        <p className="read_carefully">Please read the instructions carefully before you begin:</p>
         <div className="timeDiv">
           <ul>
             <li>Timing: The test is timed. You have [specified time] minutes to complete all questions.</li>
@@ -18,7 +20,8 @@ function Instructions () {
           </ul>
         </div>
         <div className="internetDiv">Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</div>
-        <div className="Start">Click Lets Start to begin the test. <br></br><span>Good luck!</span></div>
+        <div className="Start">Click Lets Start to begin the test.</div>
+        <div className="goodLuck">Good luck!</div>
         <div className="border"></div>
         <div className="letsStart">
          <a href="questionpenal" className="button-link">Lets start!</a>
