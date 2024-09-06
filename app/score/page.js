@@ -14,16 +14,28 @@ function Score(){
                     <div className="scoreDetails">
                         <div className="unattempted">
                             <div className="img1"><img src="Grp.png" alt=""/></div>
-                            <div className="p_unattemp">Unattempted<span className="spanDot">:</span>3</div>
+                            <div className="p_unattemp">
+                                <p className="un-p">Unattempted</p>
+                                <p className="spanDot">:</p>
+                                <p className="num_p">3</p>
+                            </div>
                         </div>
                         <div className="correct">
-                            <div className="img2"><img src="tick.png" alt="" /></div>
-                            <div className="correct_p">Correct<span className="spanDot">:</span> 35</div>
+                            <div> <img src="tick.png" alt="" /></div>
+                            <div className="correct_p">
+                                <p className="un-p">Correct</p>
+                                <p className="spanDot">:</p> 
+                                <p className="num_p">35</p>
+                            </div>
 
                         </div>
                         <div className="wrong">
-                            <div className="img3"><img src="crossIcon.png" alt=""/></div>
-                            <div className="wrong_p">Wrong<span className="spanDot">:</span>2</div>
+                            <div> <img src="crossIcon.png" alt=""/></div>
+                            <div className="wrong_p">
+                                <p className="un-p">Wrong</p>
+                                <p className="spanDot">:</p>
+                                <p className="num_p">2</p>
+                            </div>
                         </div>
 
                     </div>
