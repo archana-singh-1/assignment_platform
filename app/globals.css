@@ -99,53 +99,60 @@ ul{
   margin: 0;
 }
 @media(max-width:600px) {
-  .container{
+  .container
+  {
     width: 100%;
     margin-top: 34px;
     margin-bottom: 80px;
   }
-  .instruction{
+  .instruction
+  {
     width: 280px;
     margin: auto;
     text-align: center;
 
   }
-.read_carefully{
-  width: 280px;
-  margin: auto;
-}
-.timeDiv{
-  width: 280px;
-}
-.internetDiv{
-  width: 280px;
-
-}
-.Start{
+  .read_carefully
+  {
+    width: 280px;
+    margin: auto;
+  }
+  .timeDiv
+  {
+    width: 280px;
+  }
+  .internetDiv{
   width: 280px;
 
-}
-.border{
-  width: 280px;
-}
+  }
+  .Start
+  {
+    width: 280px;
 
-}
+  }
+  .border
+  {
+    width: 280px;
+  }
 
-.timeDiv ul li{
-  padding-top: 6px;
-}
+
+  .timeDiv ul li
+  {
+    padding-top: 6px;
+  }
 
 
-.letsStart{
+  .letsStart
+  {
   display: flex;
   justify-content: center;
   margin: auto;
   margin-top: 39px;
   width: 159px;
 
-}
+  }
 
-a.button-link {
+  a.button-link {
   display: inline-block; 
   margin-bottom: 40px;
   padding: 10px 20px;
@@ -158,5 +165,10 @@ a.button-link {
   font-weight: 400;
   font-family: "Inria Sans", sans-serif;
  
-}
+  }
+  .goodLuck {
+    margin-left: 45px;
+  
+  }
 
+}
