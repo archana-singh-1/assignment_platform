@@ -11,6 +11,12 @@
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 .page_2{
     width: 28px;
@@ -19,6 +25,13 @@
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
 }
 .page_3{
     width: 28px;
@@ -27,6 +40,13 @@
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
 }
 .page_4{
     width: 28px;
@@ -35,6 +55,12 @@
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 .page_5{
     width: 28px;
@@ -43,6 +69,12 @@
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 .page_6{
     width: 28px;
@@ -51,6 +83,12 @@
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .page_7{
@@ -60,6 +98,12 @@
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .page_8{
@@ -74,20 +118,30 @@
     width: 28px;
     height: 28px;
     line-height: 28px;
-    border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
     display: none;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 
 }
 .dot_1{
     width: 28px;
     height: 28px;
     line-height: 28px;
-    border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
     display: none;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 @media(max-width:600px){
@@ -97,6 +151,8 @@
         margin: auto;
         padding-top: 24px;
         padding-bottom: 22px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .page_2{
         display: none;

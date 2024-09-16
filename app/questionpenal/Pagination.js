@@ -3,16 +3,16 @@ function Pagination (){
     return(
         <div className="pagination">
             <img src="previous.png" className="previousImag" alt=""/>
-            <div className="page_1">1</div>
-            <div className="dot">...</div>
-            <div className="page_2">2</div>
-            <div className="page_3">3</div>
-            <div className="page_4">4</div>
-            <div className="page_5">5</div>
-            <div className="dot_1">...</div>
-            <div className="page_6">6</div>
-            <div className="page_7">7</div>
-            <div className="page_8">8</div>
+            <a className="page_1">1</a>
+            <a className="dot">...</a>
+            <a className="page_2">2</a>
+            <a className="page_3">3</a>
+            <a className="page_4">4</a>
+            <a className="page_5">5</a>
+            <a className="dot_1">...</a>
+            <a className="page_6">6</a>
+            <a className="page_7">7</a>
+            <a className="page_8">8</a>
             <img src="next.png" className="nextImg" alt=""/>
         </div>
     )

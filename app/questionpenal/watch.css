@@ -15,7 +15,7 @@
 .circle_1 {
     border-radius: 50%;
     width: 112px;
-    height: 107px;
+    height: 112px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -50,29 +50,74 @@
     margin: 5px; 
 }
 h3{
-    color: #E68086;
+    color: black;
     padding-bottom: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
-h4{
+.hours{
     margin: 0;
+    color: var(--Error, #E68086);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.seconds{
+    color: var(--Error, #E68086);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+
 }
 
 .remaning{
-    font-weight: 600;
     text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
 }
+.minText{
 
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.secText{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 @media(max-width:600px){
     .circle{
-        width: 100px;
-        height: 100px;
+        width: 109px;
+        height: 109px;
 
     }
     .circle_1{
-        width: 73px;
-        height: 72px;
+        width: 84px;
+        height: 84px;
     }
 
     .remaning {
@@ -86,8 +131,16 @@ h4{
         font-weight: 500;
         text-align: center;
     }
-    .h3{
-        font-size: 13px;
+    h3{
+        font-size: 18px;
+        color: #E68086;
+    }
+    .seconds{
+        font-size: 18px;
+    }
+    .hours{
+        font-size: 18px;
+
     }
 }
 

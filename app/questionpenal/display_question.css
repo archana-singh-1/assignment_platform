@@ -44,11 +44,15 @@
 }
 
 .ask{
-    color: var(--Dark-a, #1F1E1C);
-    font-family: "Inria Sans", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
 }
 
 .formData{
@@ -78,6 +82,9 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Dark-b, #4C4B49);
+    font-family: Inter;
+    line-height: 150%;
 }
 
 @media (max-width: 600px) {

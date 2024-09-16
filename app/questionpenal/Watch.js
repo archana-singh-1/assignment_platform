@@ -8,13 +8,13 @@ function Watch() {
                 <div className="circle_1">
                     <div className="time">
                         <div className="hours-section">
-                            <h4>59</h4>
-                            <span>min</span>
+                            <h4 className='hours'>59</h4>
+                            <span className='minText'>min</span>
                         </div>
                         <h3>:</h3>
                         <div className="time-section">
-                            <h4>50</h4>
-                            <span>sec</span>
+                            <h4 className='seconds'>50</h4>
+                            <span className='secText'>sec</span>
                         </div>
                     </div>
                 </div>

@@ -8,17 +8,19 @@ body{
 }
 
 .container{
-  max-width: 720px;
+  max-width: 705px;
   margin: auto;
-  background-color: white;
+  background: var(--Light-b, #F9F7F2);
   margin-bottom: 143px;
 }
 .title{
   text-align: center;
   font-family: "Inter", sans-serif;
-
+  color: var(--Dark-b, #4C4B49);
   font-size: 24px;
+  font-style: normal;
   font-weight: 600;
+  line-height: 120%;
   margin-top: 55px;
   margin-bottom: 19px;
 }
@@ -28,10 +30,23 @@ body{
   width: 472px;
   font-family: "Inria Sans", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   color: #4C4B49;
 }
 
+li{
+  font-family: "Inria Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--Dark-b, #4C4B49);
+  line-height: 21px;
+  padding-left: 6px;
+
+}
+ul{
+  padding: 0;
+  margin-left: 23px;
+}
 .Instructions{
   margin:0;
   padding-top: 40px;
@@ -40,19 +55,17 @@ body{
   margin: auto;
   width: 472px;
   font-family: "Inria Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #4C4B49;
   margin-top: 16px;
+  color: var(--Dark-b, #4C4B49);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .timeDiv{
   margin: auto;
   width: 472px;
-  font-family: "Inria Sans", sans-serif;
-  color: #4C4B49;
-  font-size: 14px;
-  font-weight: 400;
   margin-top: 8px;
 
 }
@@ -63,6 +76,8 @@ body{
   font-family: "Inria Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  line-height: 21px;
+  margin-top: 8px;
 
 }
 
@@ -73,17 +88,20 @@ body{
   font-family: "Inria Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  padding-top: 5px;
+  padding-top: 8px;
+  line-height: 21px;
 
 }
 
 .goodLuck{
-  font-weight: 600;
-  font-family: "Inria Sans", sans-serif;
+  color: var(--Dark-b, #4C4B49);
+  font-family: Inter;
   font-size: 14px;
   font-style: normal;
   line-height: 150%;
-  margin-left: 125px;
+  margin-left: 117px;
+  font-weight: 700;
+
 }
 
 
@@ -95,9 +113,22 @@ body{
   margin-top: 40px;
 }
 
-ul{
-  margin: 0;
+a.button-link {
+  margin-bottom: 40px;
+  padding: 16px 35px;
+  border: solid 2px #F4D150;
+  background: var(--Accent-Light, #FEEEB4);
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+  text-decoration: none; 
+  color: black; 
+  border-radius: 4px; 
+  text-align: center; 
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Inria Sans", sans-serif;
+ 
 }
+
 @media(max-width:600px) {
   .container{
     width: 100%;
@@ -149,18 +180,4 @@ ul{
 
 }
 
-a.button-link {
-  display: inline-block; 
-  margin-bottom: 40px;
-  padding: 10px 20px;
-  background-color: #FEEEB4;
-  border: solid 1px #F4D150;
-  text-decoration: none; 
-  color: black; 
-  border-radius: 4px; 
-  text-align: center; 
-  font-weight: 400;
-  font-family: "Inria Sans", sans-serif;
- 
-}
 

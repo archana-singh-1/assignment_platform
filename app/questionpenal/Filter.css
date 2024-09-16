@@ -24,20 +24,22 @@
 }
 
 .FilterText{
-    color: #4C4B49;
-    font-family: "Inria Sans", sans-serif;
+    color: var(--Dark-b, #4C4B49);
+    font-family: "Inria Sans";
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
+    line-height: normal;
     text-transform: uppercase;
 }
 
 .Question_Score{
-    color:  #1F1E1C;
-    font-family: "Inria Sans", sans-serif;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
     margin-top: 36px;
 }
 
@@ -48,12 +50,15 @@
 }
 
 .all{
-    border-radius: 4px;
+    color: var(--Light-b, #F9F7F2);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
     padding: 10px 12px;
-    justify-content: center;
-    align-items: center;
     background-color: #4C4B49;
-    color: white;
+    border-radius: 4px;
 }
 .minimum{
     border-radius: 4px;
@@ -62,6 +67,12 @@
     align-items: center;
     border: 1px solid #F4D150;
     background-color: #FEEEB4;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
 
 }
 
@@ -72,6 +83,12 @@
     align-items: center;
     border: 1px solid #F4D150;
     background-color: #FEEEB4;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
 
 }
 .highest{
@@ -81,16 +98,23 @@
     align-items: center;
     border: 1px solid #F4D150;
     background-color: #FEEEB4;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
 
 }
 
 .Questions_Attempted{
     margin-top: 48px;
-    color:  #1F1E1C;
-    font-family: "Inria Sans", sans-serif;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
 
 
@@ -109,7 +133,12 @@
     align-items: center;
     font-family: "Inria Sans", sans-serif;
     padding: 6px 12px;
-
+    color: var(--Light-b, #F9F7F2);
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
     gap: 10px;
     color: white;
     border-radius: 54px;
@@ -131,6 +160,12 @@
     font-weight: 400;
     background:  #FEEEB4;
     font-family: "Inria Sans", sans-serif;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 }
 
 .Unattempted{
@@ -144,5 +179,11 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 
 }

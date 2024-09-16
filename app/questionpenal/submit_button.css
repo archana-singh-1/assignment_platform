@@ -16,6 +16,7 @@ a.submitButton {
     text-decoration: none; 
     border-radius: 4px;
     color: black;
+    font-family: Inter;
     
 } 
 @media(max-width:600px){
