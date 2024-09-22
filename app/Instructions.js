@@ -24,7 +24,7 @@ function Instructions () {
         <div className="goodLuck">Good luck!</div>
         <div className="border"></div>
         <div className="letsStart">
-         <a href="questionpenal" className="button-link">Lets start!</a>
+         <a href="assignment" className="button-link">Lets start!</a>
         </div>
         
       </div>

@@ -58,8 +58,7 @@
     .filter_row{
         display: none;
     }
-    .hide{
-        display: block;
+    .submitBtn{
         position: fixed;
         bottom: 20px;
         right: 40px;

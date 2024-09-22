@@ -3,7 +3,7 @@
 }
 @media(max-width:600px){
     .assignment_header{
-        display: none;
+        display: block;
     }
 }
 
@@ -15,10 +15,12 @@
 }
 
 .pagination_logo{
-  width: 997px;
-  display: flex;
-  justify-content: space-between;
+    width: 997px;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 .logoImg{
     margin-top: 18px;
@@ -29,15 +31,15 @@
         padding-top: 18px;
         margin: auto;
     }
+    .main_header{
+        width: auto;
+        text-align: center;
+        display: block;
+    }
+    .pagination_logo{
+        width: auto;
+        display: block;
+    }
 
 }
 
-@media(max-width:600px){
-
-    .mobile_header{
-        display: block;
-    }
-    .mobile_header_second{
-        display: block;
-    }
-}

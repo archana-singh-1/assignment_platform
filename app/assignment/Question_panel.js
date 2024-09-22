@@ -3,10 +3,11 @@ import Display_question from "./Display_question";
 import Filter_pop from "./Filter_popop";
 import Filter from "./Filter";
 import Watch from "./Watch";
-import Submit_button from "./Submit_button";
+
 
 function Question_panel (){
     return(
+       
         <div className="main_container">
             <div className="question_container">
                 <div className="filterWatch">
@@ -28,7 +29,6 @@ function Question_panel (){
                     <Display_question/>
                     <Display_question/>
                 </div>
-            <div className="hide"> <Submit_button/></div>
             </div>
         </div>
     )

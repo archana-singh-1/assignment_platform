@@ -1,5 +1,4 @@
 import './assignment_header.css';
-import Mobile_header from './Mobile_header';
 import Pagination from './Pagination';
 import Submit_button from './Submit_button';
 
@@ -12,10 +11,9 @@ function Assignment_header () {
                         <img src="Logo.png" className='logoImg' alt=""/>
                         <Pagination/>
                     </div>
-                <Submit_button/>
+                    <Submit_button/>
                 </div>
             </div>
-        <Mobile_header/>
         </> 
     );
 };

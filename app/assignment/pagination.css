@@ -147,12 +147,10 @@
 @media(max-width:600px){
     .pagination{
         display: flex;
-        justify-content: space-between;
         margin: auto;
         padding-top: 24px;
         padding-bottom: 22px;
-        margin-left: 20px;
-        margin-right: 20px;
+        border-top: solid 2px #E0DFDA;
     }
     .page_2{
         display: none;
@@ -174,6 +172,9 @@
     }
     .dot_1{
         display: block;
+    }
+    .previousImag{
+        margin-left: 20px;
     }
 
 
