@@ -24,6 +24,5 @@ function Success_page(){
 
         </div>
     )
-
 }
 export default Success_page;

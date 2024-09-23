@@ -1,11 +1,11 @@
-import "./question_panel.css"
+import "./allQestion.css"
 import Display_question from "./Display_question";
 import Filter_pop from "./Filter_popop";
 import Filter from "./Filter";
 import Watch from "./Watch";
 
 
-function Question_panel (){
+function Allquestion (){
     return(
        
         <div className="main_container">
@@ -34,4 +34,4 @@ function Question_panel (){
     )
 
 }
-export default Question_panel;
+export default Allquestion;

@@ -1,4 +1,4 @@
-import Allquestion from "./Question_panel";
+import Allquestion from "./All_question";
 import Assignment_header from "./Assignment_header.js";
 
 function Questionpenal(){

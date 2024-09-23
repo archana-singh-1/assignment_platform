@@ -1,3 +1,4 @@
+import "./font.css"
 import './globals.css';
 import Footer from './Footer';
 
