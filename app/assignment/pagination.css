@@ -4,7 +4,7 @@
     padding-top: 24px;
     padding-bottom: 22px;
 }
-.page_1{
+.pagination_button{
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -18,22 +18,7 @@
     font-style: normal;
     font-weight: 400;
 }
-.page_2{
-    width: 28px;
-    height: 28px;
-    line-height: 28px;
-    border: solid 1px #E0DFDA;
-    border-radius: 100%;
-    text-align: center;
-    color: var(--Dark-a, #1F1E1C);
-    text-align: center;
-    font-family: "Inria Sans";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-
-}
-.page_3{
+.pagination_button{
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -48,7 +33,22 @@
     font-weight: 400;
 
 }
-.page_4{
+.pagination_button{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 1px #E0DFDA;
+    border-radius: 100%;
+    text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.pagination_button{
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -62,7 +62,7 @@
     font-style: normal;
     font-weight: 400;
 }
-.page_5{
+.pagpagination_buttone_5{
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -76,7 +76,7 @@
     font-style: normal;
     font-weight: 400;
 }
-.page_6{
+.papagination_button{
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -91,7 +91,7 @@
     font-weight: 400;
 }
 
-.page_7{
+.pagination_button{
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -106,7 +106,7 @@
     font-weight: 400;
 }
 
-.page_8{
+.pagination_button{
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -143,6 +143,8 @@
     font-style: normal;
     font-weight: 400;
 }
+
+
 
 @media(max-width:600px){
     .pagination{

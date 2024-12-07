@@ -5,33 +5,39 @@ import Filter from "./Filter";
 import Watch from "./Watch";
 
 
-function Allquestion (){
-    return(
-       
+function Allquestion({ questions }) {
+
+    const questionComponents = []; 
+
+    if (0 < questions.length) {
+        for (let i = 0; i < questions.length; i++) {
+            questionComponents.push(
+                <Display_question questionData={questions[i]} />
+            );
+        }
+    };
+
+    return (
         <div className="main_container">
             <div className="question_container">
                 <div className="filterWatch">
                     <div className="filterwatch">
                         <div className="watch_row">
-                        <Watch/>
+                            <Watch />
+                        </div>
+                        <Filter_pop />
                     </div>
-                        <Filter_pop/>
-                </div>
                     <div className="filter_row">
-                        <Filter/>
+                        <Filter />
                     </div>
-                   
                 </div>
+
                 <div className="question_col">
-                    <Display_question/>
-                    <Display_question/>
-                    <Display_question/>
-                    <Display_question/>
-                    <Display_question/>
+                    {questionComponents} 
                 </div>
             </div>
         </div>
-    )
-
+    );
 }
+
 export default Allquestion;

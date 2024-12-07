@@ -1,22 +1,38 @@
 import "./pagination.css";
 
-function Pagination (){
-    return(
-        <div className="pagination">
-            <img src="previous.png" className="previousImag" alt=""/>
-            <a className="page_1">1</a>
-            <a className="dot">...</a>
-            <a className="page_2">2</a>
-            <a className="page_3">3</a>
-            <a className="page_4">4</a>
-            <a className="page_5">5</a>
-            <a className="dot_1">...</a>
-            <a className="page_6">6</a>
-            <a className="page_7">7</a>
-            <a className="page_8">8</a>
-            <img src="next.png" className="nextImg" alt=""/>
-        </div>
-    )
+function Pagination({ currentPage, totalPages, onPageChange }) {
+  const pageNumbers = [];
+  for (let i = 1; i <= totalPages; i++) {
+    pageNumbers.push(i);
+  }
 
+  return (
+    <div className="pagination">
+      {currentPage > 1 && (
+          <img src="previous.png" className="previousImag" alt=""
+          onClick={() => onPageChange(currentPage - 1)}
+          />
+      )}
+      {pageNumbers.map((number) => (
+        <button
+          key={number}
+          className={`pagination_button ${
+            number === currentPage ? "active" : ""
+          }`}
+          onClick={() => onPageChange(number)}
+        >
+          {number}
+        </button>
+      ))}
+      {currentPage < totalPages && (
+        
+        
+        <img src="next.png" className="nextImg" alt=""
+        onClick={() => onPageChange(currentPage + 1)}
+        />
+      )}
+    </div>
+  );
 }
+
 export default Pagination;
