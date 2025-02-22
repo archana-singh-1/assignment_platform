@@ -109,7 +109,7 @@
 .pagination_button{
     width: 28px;
     height: 28px;
-    line-height: 28px;
+    line-height: 24px;
     border: solid 1px #E0DFDA;
     border-radius: 100%;
     text-align: center;
@@ -146,7 +146,7 @@
 
 
 
-@media(max-width:600px){
+/* @media(max-width:600px){
     .pagination{
         display: flex;
         margin: auto;
@@ -180,4 +180,19 @@
     }
 
 
+} */
+
+@media(max-width:600px){
+    .pagination_button {
+        width: 30px;
+        line-height: 12px;
+        border: solid 1px #E0DFDA;
+        border-radius: 100%;
+        text-align: center;
+        padding: 7px 10px 6px 10px;
+    }
+
+    .page_2{
+        display: none;
+    }
 }

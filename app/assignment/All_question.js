@@ -4,18 +4,10 @@ import Filter_pop from "./Filter_popop";
 import Filter from "./Filter";
 import Watch from "./Watch";
 
-
-function Allquestion({ questions }) {
-
-    const questionComponents = []; 
-
-    if (0 < questions.length) {
-        for (let i = 0; i < questions.length; i++) {
-            questionComponents.push(
-                <Display_question questionData={questions[i]} />
-            );
-        }
-    };
+function Allquestion({ questions, onFilterChange }) {
+    const questionComponents = questions.map((question, index) => (
+        <Display_question key={index} questionData={question} />
+    ));
 
     return (
         <div className="main_container">
@@ -28,7 +20,7 @@ function Allquestion({ questions }) {
                         <Filter_pop />
                     </div>
                     <div className="filter_row">
-                        <Filter />
+                        <Filter onFilterChange={onFilterChange} />
                     </div>
                 </div>
 

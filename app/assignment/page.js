@@ -5,14 +5,17 @@ import Assignment_header from "./Assignment_header";
 
 function Question_penal() {
   const [questions, setQuestions] = useState([]);
+  const [filteredQuestions, setFilteredQuestions] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedDifficulty, setSelectedDifficulty] = useState(null);
   const questionsPerPage = 5;
 
   class Question {
-    constructor(question, correctAnswer, incorrectAnswers) {
+    constructor(question, correctAnswer, incorrectAnswers, difficulty) {
       this.question = question;
       this.correctAnswer = correctAnswer;
       this.incorrectAnswers = incorrectAnswers;
+      this.difficulty = difficulty;
     }
   }
 
@@ -24,19 +27,12 @@ function Question_penal() {
         );
         const allQuestionsData = await response.json();
 
-        let i = 0;
-        const updateQuestions = [];
-        while (i < allQuestionsData.length) {
-          const newQuestion = new Question(
-            allQuestionsData[i].question,
-            allQuestionsData[i].correctAnswer,
-            allQuestionsData[i].incorrectAnswers
-          );
-          updateQuestions.push(newQuestion);
-          i++;
-        }
+        const updateQuestions = allQuestionsData.map((q) => 
+          new Question(q.question, q.correctAnswer, q.incorrectAnswers, q.difficulty)
+        );
 
         setQuestions(updateQuestions);
+        setFilteredQuestions(updateQuestions);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -45,14 +41,31 @@ function Question_penal() {
     fetchData();
   }, []);
 
-  const totalPages = Math.ceil(questions.length / questionsPerPage);
+  const handleDifficultyFilter = (score) => {
+    setSelectedDifficulty(score);
+
+    let difficultyLevel;
+    if (score === 10) difficultyLevel = "easy";
+    else if (score === 15) difficultyLevel = "medium";
+    else if (score === 20) difficultyLevel = "hard";
+    else difficultyLevel = null;
+
+    const filtered = difficultyLevel
+      ? questions.filter((q) => q.difficulty === difficultyLevel)
+      : questions;
+
+    setFilteredQuestions(filtered);
+    setCurrentPage(1);
+  };
+
+  const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
 
   const startIndex = (currentPage - 1) * questionsPerPage;
-  const currentQuestions = questions.slice(
+  const currentQuestions = filteredQuestions.slice(
     startIndex,
     startIndex + questionsPerPage
   );
@@ -64,7 +77,7 @@ function Question_penal() {
         totalPages={totalPages}
         onPageChange={handlePageChange}
       />
-      <Allquestion questions={currentQuestions} />
+      <Allquestion questions={currentQuestions} onFilterChange={handleDifficultyFilter} />
     </div>
   );
 }
